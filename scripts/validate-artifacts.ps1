@@ -78,7 +78,7 @@ if ($subnets) {
 $requiredSubnets = @("webservers", "database", "management") 
 foreach ($requiredSubnet in $requiredSubnets) { 
     $artifactSubnet = $subnets | Where-Object {$_.name -eq $requiredSubnet} 
-    if ($webSubnet) { 
+    if ($artifactSubnet) { 
         if ($artifactSubnet.properties.addressPrefix.EndsWith("/26")) { 
             Write-Output "`u{2705} Checked $requiredSubnet subnet - OK."
         } else {
