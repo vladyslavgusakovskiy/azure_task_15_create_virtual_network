@@ -78,12 +78,12 @@ To complete the task, you need to perform the following steps:
 
     - To learn how to deploy Virtual Network and subnets, check the documentation of [New-AzVirtualNetwork](https://learn.microsoft.com/en-us/powershell/module/az.network/new-azvirtualnetwork?view=azps-12.1.0#example-3-create-a-virtual-network-with-a-subnet-referencing-a-network-security-group) (For now, skip the security group parameters - they are not mandatory)
 
-2. Run the updated `task.ps1` script to create a cloud infrastructure for the web app. 
+3. Run the updated `task.ps1` script to create a cloud infrastructure for the web app. 
 
-3. Run artifacts generation script `scripts/generate-artifacts.ps1`.
+4. Run artifacts generation script `scripts/generate-artifacts.ps1`.
 
-4. Test yourself using the script `scripts/validate-artifacts.ps1`.
+5. Test yourself using the script `scripts/validate-artifacts.ps1`.
 
-5. Make sure that changes to both `task.ps1` and `result.json` are commited to the repo, and sumbit the solution for a review. 
+6. Make sure that changes to both `task.ps1` and `result.json` are commited to the repo, and sumbit the solution for a review. 
 
-8. Keep the resources - you will need them for your next task (anyway, virtual network resource itself is [free](https://azure.microsoft.com/en-us/pricing/details/virtual-network/)) 
+7. You can keep the resources if you want to - anyway, virtual network resource itself is [free](https://azure.microsoft.com/en-us/pricing/details/virtual-network/)
