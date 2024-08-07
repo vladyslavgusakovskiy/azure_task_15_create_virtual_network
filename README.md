@@ -4,7 +4,7 @@ I'm sure you missed working on your TODO app startup! I have some good news for 
 
 In this task you will plan and deploy a virtual network for the TODO web app. 
 
-## How to complete tasks in this module 
+## How to Complete Tasks in This Module 
 
 Tasks in this module are relying on 2 PowerShell scripts: 
 
