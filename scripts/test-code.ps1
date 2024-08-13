@@ -6,7 +6,7 @@ if ($scriptContent | Where-Object {$_.ToLower().Contains("new-azresourcegroup")}
     throw "Script is not creating a resource group, please review it. "
 } 
 
-if ($scriptContent | Where-Object {$_.ToLower().Contains("new-azvirtualnetworksubnetconfig")}) { 
+if ($scriptContent | Where-Object {$_.ToLower().Contains("new-azvirtualnetworksubnetconfig") -or $_.ToLower().Contains("add-azvirtualnetworksubnetconfig")}) { 
     Write-Host "Checking if script creates subnets - ok" 
 } else { 
     throw "Script is not creating subnets, please review it. "
